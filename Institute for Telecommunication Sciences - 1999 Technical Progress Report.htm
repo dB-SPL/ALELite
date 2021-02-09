@@ -1,0 +1,98 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0056)http://its.bldrdoc.gov/tpr/1999/its_p/lc_ale/lc_ale.html -->
+<HTML><HEAD><TITLE>Institute for Telecommunication Sciences - 1999 Technical Progress Report</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=windows-1252">
+<META content="J. Ratzloff" name=Author>
+<META 
+content="Institute for Telecommunication Sciences&#10;            1999 Technical Progress Report" 
+name=Description>
+<META content="ITS, 1999 Technical Progress Report" name=Keyword>
+<META content=Publication name=Classification>
+<META content="MSHTML 6.00.2800.1106" name=GENERATOR></HEAD>
+<BODY bgColor=#ffffff>
+<H1 align=center>Low-Cost HF Automatic Link Establishment</H1>
+<H3>Outputs</H3>
+<UL>
+  <LI>Real-time software modulator-demodulator for ALE tones. <BR><BR>
+  <LI>Software ALE controller for personal computers. </LI></UL>
+<TABLE cellPadding=10 width="45%" align=right border=0>
+  <TBODY>
+  <TR>
+    <TD vAlign=top align=middle><IMG height=370 
+      alt="HF link using two low-cost ALE systems." 
+      src="Institute for Telecommunication Sciences - 1999 Technical Progress Report_files/ale_diag.jpg" 
+      width=479 border=0> </TD></TR>
+  <TR>
+    <TD vAlign=top align=left><I>HF link using two low-cost ALE systems.</I> 
+    </TD></TR></TBODY></TABLE>
+<P>The high frequency (HF) band, 3-30 MHz., has always been heavily used, with 
+broadcast, mobile, fixed, maritime, aeronautical, and amateur allocations. 
+Because of the worldwide propagation characteristics of HF, this band has proved 
+to be very reliable and in some past emergency situations has been the only 
+communications system available for contact with isolated groups of people. 
+During times of national emergency, HF systems have proven to be critical 
+elements of wireless communications. However reliable transmission in the HF 
+band is complex: conditions change diurnally, seasonally, with solar conditions 
+and with other ionospheric conditions. This complexity has necessitated an 
+infrastructure of frequency planners, prediction programs, and simple 
+trial-and-error methods to achieve the best results.</P>
+<P>FED-STD-1045A, HF Radio Automatic Link Establishment (ALE), was developed to 
+make HF radio operation simpler by automatically selecting the best frequency 
+available for establishing a radio link. In an ALE system, the cooperating 
+radios periodically send sounding signals over a range of operating frequencies. 
+Each receiver scores each sound (or any other received ALE signal) and keeps 
+track of the best frequencies at any given time. When a link to another radio is 
+desired, the ALE system automatically selects the best frequency and establishes 
+a connection through an automatic protocol. If a chosen frequency proves to be 
+unusable, the ALE system will automatically and iteratively connect on the next 
+best frequency. Once the connection has been made, any normal type of traffic 
+(voice or data) can be passed. ALE radios allow faster connection times, more 
+reliable connections, and simpler operation — and therefore a reduced 
+requirement for skilled operators. ALE systems are currently being used 
+successfully by many government and military organizations.</P>
+<P>Despite its advantages, HF ALE has not been widely implemented by 
+non-government users because of its relatively high equipment cost. There would 
+be substantial benefits to the National Security and Emergency Preparedness 
+(NS/EP) missions of the National Communications System (NCS) and other federal 
+agencies if ALE technology could be made widely available. Coordination with ham 
+radio operators in times of emergency has greatly enhanced previous disaster 
+relief efforts. Broadening HF connectivity would speed future relief efforts. 
+ITS is assisting NCS and its member agencies in achieving this goal by 
+developing and demonstrating a low cost HF ALE capability for the personal 
+computer (PC).</P>
+<P>In order to make ALE techniques widely available, ITS has written an ALE 
+controller program which runs on a standard PC in the Windows® environment. The 
+PC connects to a standard (non-ALE) HF radio (at present only ICOM radios are 
+supported) through a serial port for radio control and an audio cable for 
+sending and receiving ALE tones. If the radio does not provide a voice-actuated 
+switch function, this must be provided externally. The only special PC 
+requirement is an audio card that is DirectX® compatible. The ALE controller 
+program is multi-threaded. One thread provides an ALE tones modem and ALE word 
+encoding and decoding. The other thread provides all other controller functions, 
+such as user interface, configuration data manager, signal quality history, 
+radio control, sounding, reception, scanning, connection, channel selection and 
+Automatic Message Display interchange.</P>
+<P>In the ALE signal, information is encoded by sending out tones which last 
+eight milliseconds each. There are eight tones, so that each tone represents 
+three bits (2<SUP>3</SUP> = 8) of information. The low-cost ALE modem uses a 
+computer soundcard to sample these tones on input, and to reproduce them on 
+output. In receive mode, the tones are sampled in overlapping four-millisecond 
+windows, so that each tone is checked four times. A special digital filter, 
+which is very robust against noise, is used to identify the tone in each window 
+and a sophisticated pattern matching scheme is used to determine the identity of 
+the sampled tone. This information is converted into a tone number between 0 and 
+7 (three bits) and is passed to the decoding routine for further processing. The 
+encoding routines send the transmit portion of the modem numbers from 0 to 7 and 
+it produces an eight-millisecond long tone for each number that it receives. 
+Both of these processes must occur in a real-time fashion, with no interruption 
+from other programs, and so they depend very heavily upon threaded code 
+techniques.</P>
+<P>The low cost ALE controller program is available for download from the 
+Institute's Web page at <A href="http://www.its.bldrdoc.gov/"><FONT 
+color=#3333ff><B>http://www.its.bldrdoc.gov/</B></FONT></A></P>For more 
+information, contact: 
+<ADDRESS>Dr. Robert B. Stafford<BR>303-497-7835<BR>e-mail:<A 
+href="mailto:rstafford@its.bldrdoc.gov">rstafford@its.bldrdoc.gov</A> </ADDRESS>
+<P align=center><A 
+href="http://its.bldrdoc.gov/tpr/1999/index.html#its.p"><B>Back</B></A> | <A 
+href="http://its.bldrdoc.gov/Home.html"><B>ITS Home</B></A></P></BODY></HTML>
