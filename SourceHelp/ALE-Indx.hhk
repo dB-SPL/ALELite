@@ -1,0 +1,124 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+<!-- Sitemap 1.0 -->
+</HEAD><BODY>
+<UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Address">
+		<param name="Name" value="Other Address">
+		<param name="Local" value="Other Address.htm">
+		<param name="Name" value="Self Address">
+		<param name="Local" value="Self Address.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ALE">
+		<param name="Name" value="ALE Lite">
+		<param name="Local" value="Add Channel.htm">
+		<param name="Name" value="Configuring ALE Lite">
+		<param name="Local" value="Configure Program.htm">
+		<param name="Name" value="What ALEtte Does">
+		<param name="Local" value="What This Program Does.htm">
+		<param name="Name" value="What is ALE?">
+		<param name="Local" value="What is ALE.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Calibration">
+		<param name="Name" value="Calibration">
+		<param name="Local" value="Calibration.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Call">
+		<param name="Name" value="Making A Call">
+		<param name="Local" value="Make A Call.htm">
+		<param name="Name" value="Receiving A Call">
+		<param name="Local" value="Receive A Call.htm">
+		<param name="Name" value="Transmit A Message">
+		<param name="Local" value="Transmit.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Configuration">
+		<param name="Name" value="Configuring ALE Lite">
+		<param name="Local" value="Configure Program.htm">
+		<param name="Name" value="Configuring the Serial Communications Port">
+		<param name="Local" value="Serial Comm Port.htm">
+		<param name="Name" value="Edit The Configuration File">
+		<param name="Local" value="Edit Configure.htm">
+		<param name="Name" value="Editing and Deleting Channels">
+		<param name="Local" value="Edit Channel.htm">
+		<param name="Name" value="Hardware Setup">
+		<param name="Local" value="Hardware.htm">
+		<param name="Name" value="Open the Configuration File">
+		<param name="Local" value="Open Configure.htm">
+		<param name="Name" value="Other Address">
+		<param name="Local" value="Other Address.htm">
+		<param name="Name" value="Saving The Configuration File">
+		<param name="Local" value="Save Configure.htm">
+		<param name="Name" value="Selecting the Radio Address">
+		<param name="Local" value="radio address.htm">
+		<param name="Name" value="Self Address">
+		<param name="Local" value="Self Address.htm">
+		<param name="Name" value="Software Setup">
+		<param name="Local" value="Software Setup.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Direct X">
+		<param name="Name" value="Direct X">
+		<param name="Local" value="DLL Files.htm">
+		<param name="Name" value="Direct X Compatability">
+		<param name="Local" value="Direct X.htm">
+		<param name="Name" value="Sound Card Compatability">
+		<param name="Local" value="CSound Card.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Errors">
+		<param name="Name" value="Error Messages">
+		<param name="Local" value="Error Messages.htm">
+		<param name="Name" value="Compatability Issues">
+		<param name="Local" value="Compatability.htm">
+		<param name="Name" value="Calibration">
+		<param name="Local" value="Calibration.htm">
+		<param name="Name" value="List of Valid Frequencies">
+		<param name="Local" value="List of Freqs.htm">
+		<param name="Name" value="List of Valid Modes">
+		<param name="Local" value="List of Modes.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="FS-1045A">
+		<param name="Name" value="What is ALE?">
+		<param name="Local" value="What is ALE.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Hardware">
+		<param name="Name" value="Hardware Setup">
+		<param name="Local" value="Hardware.htm">
+		<param name="Name" value="Hardware Requirements">
+		<param name="Local" value="HRequirements.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Sound Card">
+		<param name="Name" value="Sound Card Compatability">
+		<param name="Local" value="CSound Card.htm">
+		<param name="Name" value="Sound Card Drivers">
+		<param name="Local" value="Sound card Drivers.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Sounding">
+		<param name="Name" value="Sounding">
+		<param name="Local" value="Sounding.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Wiring">
+		<param name="Name" value="Wiring">
+		<param name="Local" value="Wiring.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="VOX">
+		<param name="Name" value="VOX">
+		<param name="Local" value="VOX.htm">
+		<param name="Name" value="Wiring">
+		<param name="Local" value="Wiring.htm">
+		</OBJECT>
+</UL>
+</BODY></HTML>

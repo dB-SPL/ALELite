@@ -1,0 +1,206 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+<!-- Sitemap 1.0 -->
+</HEAD><BODY>
+<OBJECT type="text/site properties">
+	<param name="Window Styles" value="0x800025">
+</OBJECT>
+<UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ALE Lite: The Program">
+		<param name="Local" value="Basics of ALE.htm">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="What is ALE?">
+			<param name="Local" value="What is ALE.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="What ALE Lite Does">
+			<param name="Local" value="What This Program Does.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Why Use ALE?">
+			<param name="Local" value="What Use ALE.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Credits">
+			<param name="Local" value="who wrote.htm">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Hardware Setup">
+		<param name="Local" value="Hardware.htm">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Requirements">
+			<param name="Local" value="HRequirements.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Wiring">
+			<param name="Local" value="Wiring.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="VOX">
+			<param name="Local" value="VOX.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Calibration">
+			<param name="Local" value="Calibration.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Testing">
+			<param name="Local" value="Testing.htm">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Software Setup">
+		<param name="Local" value="Software Setup.htm">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Requirements">
+			<param name="Local" value="SRequirements.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Windows">
+			<param name="Local" value="Windows.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Direct X">
+			<param name="Local" value="Direct X.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Sound Card Drivers">
+			<param name="Local" value="Sound card Drivers.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="DLL Files">
+			<param name="Local" value="DLL Files.htm">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Configuring ALE Lite">
+		<param name="Local" value="Configure Program.htm">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Open A Configuration File">
+			<param name="Local" value="Open Configure.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Edit The Configuration File">
+			<param name="Local" value="Edit Configure.htm">
+			<param name="ImageNumber" value="35">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Radio Type">
+				<param name="Local" value="radio type.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Radio Address">
+				<param name="Local" value="radio address.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Serial Comm Port">
+				<param name="Local" value="Serial Comm Port.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Baud Rate">
+				<param name="Local" value="Baud Rate.htm">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Edit The Channel Selections">
+			<param name="Local" value="Channel Selection.htm">
+			<param name="ImageNumber" value="35">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Add Channel">
+				<param name="Local" value="Add Channel.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Edit/Delete Channel">
+				<param name="Local" value="Edit Channel.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="List of Frequencies">
+				<param name="Local" value="List of Freqs.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="List of Modes">
+				<param name="Local" value="List of Modes.htm">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Self Address">
+			<param name="Local" value="Self Address.htm">
+			<param name="ImageNumber" value="35">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Other Address">
+			<param name="Local" value="Other Address.htm">
+			<param name="ImageNumber" value="35">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Save The Configuration File">
+			<param name="Local" value="Save Configure.htm">
+			<param name="ImageNumber" value="35">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Trouble Shooting">
+			<param name="Local" value="Trouble Shooting.htm">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Viewing The Features of The Program">
+		<param name="Local" value="Viewing.htm">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Signal Quality">
+			<param name="Local" value="signal quality.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="AMD Viewing">
+			<param name="Local" value="AMD View.htm">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Calling">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Making a Call">
+			<param name="Local" value="Make A Call.htm">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Allcall">
+				<param name="Local" value="Allcall.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Individual Call">
+				<param name="Local" value="Individual Call.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="AMD Message">
+				<param name="Local" value="AMD Message.htm">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Receiving A Call">
+			<param name="Local" value="Receive A Call.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Sounding">
+			<param name="Local" value="Sounding.htm">
+			</OBJECT>
+	</UL>
+</UL>
+</BODY></HTML>

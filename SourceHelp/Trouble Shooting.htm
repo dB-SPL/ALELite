@@ -1,0 +1,21 @@
+<HTML>
+<HEAD>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>Trouble Shooting</title>
+</HEAD>
+<BODY background="backg.gif">
+<body text="#000000" link="ff00ff" vlink="#5c3317">
+<center><h3><font color="blue">
+Trouble Shooting
+</font></h3></center>
+<p>
+The following list describes some of the known problems and issues relating to this program.
+<ul>
+<li>Sound-Card Sampling Rate: The sampling rate in most computer sound cards is supposed to be standardized. In several cases, the sampling rate is not what it is supposed to be. The ALE Lite program will not perform properly if the sound card that is used with it does not use an accurate sampling rate. To see whether your card has the correct sampling rate, try the following; Generate a known frequency and route that signal into the sound card's input. Record the signal, on the computer, with a digital sound-recording program. Determine how many samples the  recorder recorded for the given time period. If this is more than 10% different from the expected number of samples for that period, the sound-card sampling rate is inaccurate and the card can not be used with the ALE Lite program.
+<li>Direct X Compatability: The drivers that are used with your sound card must be certified as being Direct-X compatable by Microsoft Corporation. Usually, this can be determined by running the "dxdiag.exe" program that is automatically installed when a user installs an operating system from Microsoft, such as Windows.
+<li>Left/Right Sense: The ALE Lite program expects the incoming signal to be on only one of the stereo input channels of the sound card. During the setup process, the user can accidently connect the left and right channels to the wrong side. Some computer programs can switch the left- and right-handedness of the stereo channels through software commands. If you suspect that the ALE Lite program is not recognizing signals because of this kind of problem, reverse the incoming wires leading to the sound card.
+<li>Mixer Controls: If the ALE Lite program is not picking up signals from the sound card when you are sure that signals are present (you can often listen to the radio and hear the signals), something may be set incorrectly with your sound-card mixer program. In many cases, the sound-card mixing program can be accessed by clicking on the little yellow speaker icon in your desktop system tray. After running the mixer, check to see if the Left/Right balance control is set in the middle of the range, the volume control is set to the value determined by the <a href="calibration.htm">calibration</a> process, and that the incoming line is not muted.
+<li>VOX Adjustment: If you are using an external VOX, and you think your signal is not being sent out, the VOX may need adjustment. Set the VOX volume to zero. Use the radio's microphone and talk into it. Increase the VOX volume until the voice signal is recognized.
+<li>Squelch Adjustment: If the squelch level is not set properly, the sound card will not receive an incoming signal from the radio. Adjust the level properly.
+</body>
+</html>

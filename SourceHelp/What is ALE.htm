@@ -1,0 +1,23 @@
+<HTML>
+<HEAD>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>What is ALE?</title>
+</HEAD>
+<BODY background="backg.gif">
+<body text="#000000" link="ff00ff" vlink="#5c3317">
+<center><h3><font color="blue">
+What is ALE?
+</font></h3></center>
+<hr>
+ALE stands for Automatic Link Establishment. The Federal Standard for ALE is FS-1045A and is available on line at <a href="http://ntia.its.bldrdoc.gov/fs-1045a/" target="_top">ntia.its.bldrdoc.gov/fs-1045a/</a>.
+<p>
+ALE allows an HF Radio to establish expert knowledge about the HF environment and to store this information within the radio itself (or in a computer simulating a radio). Since the HF transmission environment is continually changing, users may specify several different radio frequencies over which transmission can take place. When a call is placed between radio stations, the software controlling the radio automatically establishes the call over the best frequency for that point in time. The best frequency choice is based on which frequency as recently given the best results. If the transmission environment changes during the call, the radio will try to switch to a better frequency.
+<p>
+The software controling the radio will keep testing the environment to identify the most useful frequencies for propagation and, when the next call is placed, will first try to use those frequencies.
+<p>
+Each station in an ALE network has its own address and continually scans a set number of frequencies. The stations record a link quality analysis (LQA) value each time they receive an ALE signal from another station.  These LQA values allow the stations to make an informed analysis of propagation conditions and use optimal frequencies during future transmissions within the network.
+<p>
+In order to transmit information the ALE station uses a set of 8 tones.  Each of these tones encompasses three bits of information which may represent a portion of 1 ASCII character or may represent an entire predefined ALE symbol.  This technique, known as 8-ary frequency shift keying, allows ALE systems to communicate at lower signal-to-noise ratios (SNR) than is normally possible with voice communications.  The ALE protocol also specifies the combined use of forward error correction, interleaving, and redundancy in order to make ALE networks more resistant to interference.
+<p>
+</body>
+</html>

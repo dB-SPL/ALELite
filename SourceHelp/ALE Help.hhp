@@ -1,0 +1,60 @@
+[OPTIONS]
+Compatibility=1.1
+Compiled file=ALE_Help.chm
+Contents file=ALE-TOC.hhc
+Default Window=ALE HELP
+Default topic=Basics of ALE.htm
+Display compile progress=No
+Index file=ALE-Indx.hhk
+Language=0x409 English (United States)
+Title=ALE Lite Help Files
+
+[WINDOWS]
+ALE HELP="How to Use the ALE Lite Program","ALE-TOC.hhc","ALE-Indx.hhk","Basics of ALE.htm",,,,,,0x2120,,0x3006,,,,,0,,,
+
+
+[FILES]
+Wiring.htm
+Basic Code.htm
+Basics of ALE.htm
+Baud Rate.htm
+Calibration.htm
+CDirect x.htm
+Channel Selection.htm
+Compatability.htm
+Configure Program.htm
+CRadio.htm
+CSound Card.htm
+Direct X.htm
+DLL Files.htm
+Edit Channel.htm
+Edit Configure.htm
+edit.htm
+Error Messages.htm
+Hardware.htm
+HRequirements.htm
+List of Freqs.htm
+List of Modes.htm
+Make A Call.htm
+Open Configure.htm
+Other Address.htm
+radio address.htm
+radio type.htm
+Receive A Call.htm
+Save Configure.htm
+Self Address.htm
+Serial Comm Port.htm
+Software Setup.htm
+Sound card Drivers.htm
+Sounding.htm
+SRequirements.htm
+test4.htm
+Testing.htm
+Transmit.htm
+Trouble Shooting.htm
+VOX.htm
+What is ALE.htm
+What This Program Does.htm
+who wrote.htm
+Windows.htm
+Add Channel.htm

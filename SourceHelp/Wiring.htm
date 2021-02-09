@@ -1,0 +1,34 @@
+<HTML>
+<HEAD>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>Wiring</title>
+</HEAD>
+<BODY background="backg.gif">
+<body text="#000000" link="ff00ff" vlink="#5c3317">
+<center><h3><font color="blue">
+Wiring
+</font></h3></center>
+<hr>
+<a href="wiring.gif"><img src="wiring-s.gif"></a>
+<br>The computer, radio, and antenna need to be connected. This diagram (click on it to view a larger picture. You may have to stretch this "help" window to see all of it), shows the basic wiring pattern.
+<p>
+This software uses a computer sound card to generate the tones that an HF modem would normally create. The top portion of the figure shows the radio system connections using a sound card. In some setups, the <a href="VOX.htm">VOX</a> will be part of the radio itself and in others, the VOX will need to be added along the connection between the sound card and the radio.
+
+<p>
+Some of the cables you will need to connect the components of your system will be,
+
+<ul>
+<li>RS-232 ribbon cable -- This is used to connect the Personal Computer to the SLC (Serial Line Converter) (the CT17 box is used for ICOM radios).
+<li>1/8" mono cable -- This is used to connect the SLC unit to the ICOM radio.
+<a href="mic-con.gif" align=left><img src="mic-cons.gif"></a>
+<li>Microphone cable & connectors -- This is a cable that the user will need to create. The image above (click on it for a more detailed version), from the <i>ICOM instruction manual: IC-726</i> (Kamihigashi, Hirano-ku, Osaka, Japan, 1990), shows the pin-out diagram for building the cable.
+<ul>
+<li>Audio In -- This allows the tones from the sound card to flow into the radio via the microphone connector. Connect the "microphone-input" pin and the "microphone-ground" pin (from the microphone jack on the radio) to an 1/8" stereo plug that will be plugged into the computer sound card's audio-output (speaker) jack. Note that the output of the sound card is stereo and you will use only one half of the signal to create the mono input for the microphone.
+<li>PTT -- If an external VOX is being used to generate a PTT signal, the signal from the sound card output must be split and sent into the VOX. RCA connectors can be used for this. The output of the VOX is connected to the PTT and PTT ground pins of the microphone cable. Again, SCA jacks can be used for this.
+<li>Audio Out -- This allows tones that the radio receives to be sent to the sound card for decoding. Connect the microphone (AF) output to an 1/8" stereo plug that will be plugged into the "line-in" jack in the sound card. Note that this mono signal will need to be routed into a stereo plug.
+</ul>
+<li>Coaxial cable -- The radio will be connected to the antenna with coaxial cable.
+</ul>
+
+</body>
+</html>
