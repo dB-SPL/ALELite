@@ -1,0 +1,844 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif\r\n"
+    "#include ""res\\ALE.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#include ""afxprint.rc""       // printing/print preview resources\r\n"
+    "#endif\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\ALE.ico"
+IDR_ALETYPE             ICON    DISCARDABLE     "res\\ALEDoc.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_MAINFRAME           BITMAP  MOVEABLE PURE   "res\\Toolbar.bmp"
+MOVEUPU                 BITMAP  DISCARDABLE     "res\\moveupu.bmp"
+MOVEUPD                 BITMAP  DISCARDABLE     "res\\moveupd.bmp"
+MOVEUPF                 BITMAP  DISCARDABLE     "res\\moveupf.bmp"
+MOVEUPX                 BITMAP  DISCARDABLE     "res\\moveupx.bmp"
+MOVEDOWND               BITMAP  DISCARDABLE     "res\\movedownd.bmp"
+MOVEDOWNF               BITMAP  DISCARDABLE     "res\\movedownf.bmp"
+MOVEDOWNU               BITMAP  DISCARDABLE     "res\\movedownu.bmp"
+MOVEDOWNX               BITMAP  DISCARDABLE     "res\\movedownx.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR DISCARDABLE  16, 15
+BEGIN
+    BUTTON      ID_FILE_NEW
+    BUTTON      ID_FILE_OPEN
+    BUTTON      ID_FILE_SAVE
+    SEPARATOR
+    BUTTON      ID_EDIT_CUT
+    BUTTON      ID_EDIT_COPY
+    BUTTON      ID_EDIT_PASTE
+    SEPARATOR
+    BUTTON      ID_APP_ABOUT
+    BUTTON      ID_CONTEXT_HELP
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU PRELOAD DISCARDABLE 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&New\tCtrl+N",                ID_FILE_NEW
+        MENUITEM "&Open...\tCtrl+O",            ID_FILE_OPEN
+        MENUITEM "&Save\tCtrl+S",               ID_FILE_SAVE
+        MENUITEM "Save &As...",                 ID_FILE_SAVE_AS
+        MENUITEM SEPARATOR
+        MENUITEM "Recent File",                 ID_FILE_MRU_FILE1, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "&Edit"
+    BEGIN
+        MENUITEM "Con&figuration",              ID_EDIT_CONFIG
+        MENUITEM "&Channel",                    ID_EDIT_CHANNEL
+        MENUITEM "&Self Addresses",             ID_EDIT_SELFADDR
+        MENUITEM "&Other Addresses",            ID_EDIT_OTHERADDR
+        MENUITEM SEPARATOR
+        MENUITEM "&Undo\tCtrl+Z",               ID_EDIT_UNDO
+        MENUITEM SEPARATOR
+        MENUITEM "Cu&t\tCtrl+X",                ID_EDIT_CUT
+        MENUITEM "&Copy\tCtrl+C",               ID_EDIT_COPY
+        MENUITEM "&Paste\tCtrl+V",              ID_EDIT_PASTE
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "Signal &Quality",             ID_VIEW_SIGNALQUALITY
+        MENUITEM "&AMD Messages",               ID_VIEW_AMD
+        MENUITEM SEPARATOR
+        MENUITEM "&Toolbar",                    ID_VIEW_TOOLBAR
+        MENUITEM "&Status Bar",                 ID_VIEW_STATUS_BAR
+    END
+    POPUP "&Sounding"
+    BEGIN
+        MENUITEM "&Start Sounding",             ID_SOUNDING_START
+        MENUITEM SEPARATOR
+    END
+    POPUP "&Receive Mode"
+    BEGIN
+        MENUITEM "&Off",                        ID_RX_OFF
+        MENUITEM "&Scanning",                   ID_RX_SCANNING
+        MENUITEM "Single &Channel",             ID_RX_SINGCHAN
+    END
+    POPUP "&Transmit"
+    BEGIN
+        MENUITEM "&Allcall",                    ID_ALLCALL
+        MENUITEM "&Individual Call",            ID_INDIVIDUALCALL
+        MENUITEM "AMD &Message",                ID_AMDMESSAGE
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&Help Topics",                ID_HELP_FINDER
+        MENUITEM SEPARATOR
+        MENUITEM "&About ALE Lite...",          ID_APP_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS PRELOAD MOVEABLE PURE 
+BEGIN
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    "D",            ID_DEBUG_MODE,          VIRTKEY, SHIFT, CONTROL, 
+                                                    NOINVERT
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL, NOINVERT
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL, NOINVERT
+    "P",            ID_FILE_PRINT,          VIRTKEY, CONTROL, NOINVERT
+    "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL, NOINVERT
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL, NOINVERT
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT, NOINVERT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT, NOINVERT
+    VK_F1,          ID_HELP,                VIRTKEY, NOINVERT
+    VK_F1,          ID_CONTEXT_HELP,        VIRTKEY, SHIFT, NOINVERT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY, NOINVERT
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT, NOINVERT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT, NOINVERT
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL, NOINVERT
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 217, 73
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About ALE Lite"
+FONT 8, "MS Sans Serif"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "ALE Lite BETA Version 0.9, 17 Apr 2000",IDC_STATIC,40,10,90,21,
+                    SS_NOPREFIX
+    LTEXT           "Bob McLean, Chris Behm, Rob Stafford",IDC_STATIC,40,29,
+                    93,21
+    DEFPUSHBUTTON   "OK",IDOK,178,7,36,14,WS_GROUP
+    LTEXT           "Help File by Bill Ingram",IDC_STATIC,40,47,72,8
+END
+
+IDD_SELFADDR DIALOG DISCARDABLE  0, 0, 284, 167
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Self Address Entry"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Self Address (or Net Member Address):",IDC_STATIC,22,18,
+                    122,8
+    EDITTEXT        IDC_EDIT1,22,30,95,14,ES_UPPERCASE | ES_AUTOHSCROLL
+    LTEXT           "Net Address:",IDC_STATIC,22,54,42,8
+    EDITTEXT        IDC_EDIT2,22,66,95,14,ES_UPPERCASE | ES_AUTOHSCROLL
+    LTEXT           "Slot Wait Time:",IDC_STATIC,22,90,49,8
+    EDITTEXT        IDC_EDIT3,22,102,40,14,ES_AUTOHSCROLL
+    LTEXT           "Valid Channels:",IDC_STATIC,167,18,50,8
+    LISTBOX         IDC_LIST1,167,30,74,86,LBS_MULTIPLESEL | 
+                    LBS_NOINTEGRALHEIGHT | LBS_MULTICOLUMN | WS_VSCROLL | 
+                    WS_TABSTOP
+    DEFPUSHBUTTON   "OK",IDOK,70,132,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,163,132,50,14
+END
+
+IDD_CHANNEL DIALOG DISCARDABLE  0, 0, 282, 207
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Channel Entry"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Frequency (MHz):",IDC_STATIC,79,27,57,8
+    EDITTEXT        IDC_EDIT1,79,38,40,14,ES_AUTOHSCROLL
+    LTEXT           "Mode:",IDC_STATIC,159,27,21,8
+    COMBOBOX        IDC_COMBO1,159,38,48,49,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    GROUPBOX        "Transmit",IDC_STATIC,53,17,176,40
+    LTEXT           "Frequency (MHz):",IDC_STATIC,79,76,57,8
+    EDITTEXT        IDC_EDIT2,79,87,40,14,ES_AUTOHSCROLL
+    LTEXT           "Mode:",IDC_STATIC,159,76,21,8
+    COMBOBOX        IDC_COMBO2,159,87,48,53,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    GROUPBOX        "Receive",IDC_STATIC,53,66,176,40
+    LTEXT           "Transmit/Receive:",IDC_STATIC,84,112,60,8
+    COMBOBOX        IDC_COMBO3,148,111,74,51,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Scan?:",IDC_STATIC,120,130,24,8
+    COMBOBOX        IDC_COMBO4,148,128,48,51,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Sound Interval (minutes):",IDC_STATIC,65,148,79,8
+    EDITTEXT        IDC_EDIT3,148,147,40,14,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,74,175,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,164,175,50,14
+END
+
+IDD_CHANNEL_LIST DIALOG DISCARDABLE  0, 0, 350, 181
+STYLE WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Channels"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "List1",IDC_LIST1,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | WS_BORDER | WS_TABSTOP,7,7,305,147
+    PUSHBUTTON      "Edit Channel",IDC_EDIT_CHAN,7,160,60,14
+    PUSHBUTTON      "Add Channel",IDC_ADD_CHAN,129,160,60,14
+    PUSHBUTTON      "Delete Channel",IDC_DELETE_CHAN,251,160,60,14
+    CONTROL         "MOVEUP",IDC_MOVEUP,"Button",BS_OWNERDRAW | WS_TABSTOP,
+                    318,42,27,33
+    CONTROL         "MOVEDOWN",IDC_MOVEDOWN,"Button",BS_OWNERDRAW | 
+                    WS_TABSTOP,318,92,27,33
+END
+
+IDD_SELFADDR_LIST DIALOG DISCARDABLE  0, 0, 350, 181
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Self Address List"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "List1",IDC_LIST1,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | WS_BORDER | WS_TABSTOP,7,7,305,147
+    PUSHBUTTON      "Edit Self Addr",IDC_EDIT_SADDR,7,160,60,14
+    PUSHBUTTON      "Add Self Addr",IDC_ADD_SADDR,129,160,60,14
+    PUSHBUTTON      "Delete Self Addr",IDC_DELETE_SADDR,251,160,60,14
+    CONTROL         "MOVEUP",IDC_MOVEUP,"Button",BS_OWNERDRAW | WS_TABSTOP,
+                    318,42,27,33
+    CONTROL         "MOVEDOWN",IDC_MOVEDOWN,"Button",BS_OWNERDRAW | 
+                    WS_TABSTOP,318,92,27,33
+END
+
+IDD_OTHADDR_LIST DIALOG DISCARDABLE  0, 0, 350, 181
+STYLE WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Other Addresses"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "List1",IDC_LIST1,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | WS_BORDER | WS_TABSTOP,7,7,305,147
+    PUSHBUTTON      "Edit Other Addr",IDC_EDIT_OADDR,7,160,60,14
+    PUSHBUTTON      "Add Other Addr",IDC_ADD_OADDR,129,160,60,14
+    PUSHBUTTON      "Delete Other Addr",IDC_DELETE_OADDR,247,160,64,14
+    CONTROL         "MOVEUP",IDC_MOVEUP,"Button",BS_OWNERDRAW | WS_TABSTOP,
+                    318,42,27,33
+    CONTROL         "MOVEDOWN",IDC_MOVEDOWN,"Button",BS_OWNERDRAW | 
+                    WS_TABSTOP,318,92,27,33
+END
+
+IDD_OTHADDR DIALOG DISCARDABLE  0, 0, 284, 222
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Other Address Entry"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Other Address (or Net Address):",IDC_STATIC,22,18,100,8
+    EDITTEXT        IDC_EDIT1,22,30,95,14,ES_UPPERCASE | ES_AUTOHSCROLL
+    LTEXT           "Slot Wait Time:",IDC_STATIC,162,18,49,8
+    EDITTEXT        IDC_EDIT3,162,30,40,14,ES_AUTOHSCROLL
+    LTEXT           "Slots:",IDC_STATIC,22,60,18,8
+    LISTBOX         IDC_LIST2,22,71,95,86,LBS_NOINTEGRALHEIGHT | LBS_NOSEL | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Valid Channels:",IDC_STATIC,162,59,50,8
+    LISTBOX         IDC_LIST1,162,71,74,86,LBS_MULTIPLESEL | 
+                    LBS_NOINTEGRALHEIGHT | LBS_MULTICOLUMN | WS_VSCROLL | 
+                    WS_TABSTOP
+    PUSHBUTTON      "Edit Slots",IDC_BUTTON1,22,168,95,14,BS_CENTER
+    DEFPUSHBUTTON   "OK",IDOK,70,194,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,163,194,50,14
+END
+
+IDD_SLOT_LIST DIALOG DISCARDABLE  0, 0, 272, 210
+STYLE WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Slot Addresses"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "List1",IDC_LIST1,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | WS_BORDER | WS_TABSTOP,8,7,223,147
+    PUSHBUTTON      "Edit Slot Addr",IDC_EDIT_SADDR,7,160,60,14
+    PUSHBUTTON      "Add Slot Addr",IDC_ADD_SADDR,87,160,60,14
+    PUSHBUTTON      "Delete Slot Addr",IDC_DELETE_SADDR,167,160,64,14
+    CONTROL         "MOVEUP",IDC_MOVEUP,"Button",BS_OWNERDRAW | WS_TABSTOP,
+                    239,42,27,33
+    CONTROL         "MOVEDOWN",IDC_MOVEDOWN,"Button",BS_OWNERDRAW | 
+                    WS_TABSTOP,239,92,27,33
+    DEFPUSHBUTTON   "OK",IDOK,45,186,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,138,186,50,14
+END
+
+IDD_SLOTADDR DIALOG DISCARDABLE  0, 0, 156, 69
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Slot Address"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,20,48,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,86,48,50,14
+    LTEXT           "Slot Address:",IDC_STATIC,21,7,42,8
+    EDITTEXT        IDC_EDIT1,21,19,73,14,ES_UPPERCASE | ES_AUTOHSCROLL
+END
+
+IDD_SELINDIV DIALOG DISCARDABLE  0, 0, 232, 146
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Individual Addresses"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Select the Address to call:",IDC_STATIC,17,5,83,8
+    LISTBOX         IDC_LIST1,17,17,86,67,LBS_SORT | LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Select the Self Address:",IDC_STATIC,129,5,76,8
+    LISTBOX         IDC_LIST2,129,17,86,67,LBS_SORT | LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "",IDC_STATIC,17,96,98,30
+    CONTROL         "&Automatic",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON,17,
+                    103,47,10
+    CONTROL         "&Manually Select Channel",IDC_RADIO2,"Button",
+                    BS_AUTORADIOBUTTON,17,114,94,10
+    DEFPUSHBUTTON   "OK",IDOK,147,99,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,147,116,50,14
+END
+
+IDD_SOUNDADDRS DIALOG DISCARDABLE  0, 0, 186, 95
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Sound Addresses"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,124,21,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,124,38,50,14
+    LISTBOX         IDC_LIST1,17,19,91,65,LBS_SORT | LBS_MULTIPLESEL | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Select the Addresses to sound:",IDC_STATIC,17,5,99,8
+END
+
+IDD_SIGNALQUALITY DIALOG DISCARDABLE  0, 0, 455, 247
+STYLE DS_MODALFRAME | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Signal Quality"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "List1",IDC_LIST1,"SysListView32",LVS_REPORT | 
+                    LVS_SORTASCENDING | WS_BORDER | WS_TABSTOP,22,9,411,201
+    PUSHBUTTON      "Delete Selected Channel(s)",IDC_DELETE_CH,165,222,103,
+                    14
+END
+
+IDD_RXCHANNEL DIALOG DISCARDABLE  0, 0, 263, 125
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Receive Channel"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,61,103,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,153,103,50,14
+    CONTROL         "List1",IDC_LIST1,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | WS_BORDER | WS_TABSTOP,33,14,197,81
+    LTEXT           "Select a Channel:",IDC_STATIC,33,5,57,8
+END
+
+IDD_CONFIG DIALOG DISCARDABLE  0, 0, 186, 166
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Configuration"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,24,142,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,111,142,50,14
+    COMBOBOX        IDC_COMBO1,15,21,81,59,CBS_DROPDOWNLIST | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_RADIOADDR,15,50,23,14,ES_UPPERCASE | ES_AUTOHSCROLL
+    COMBOBOX        IDC_COMBO2,15,81,48,53,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO3,15,117,48,84,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    LTEXT           "&Type of Radio:",IDC_STATIC,15,11,48,8
+    LTEXT           "&Serial Comm Port:",IDC_STATIC,15,71,56,8
+    LTEXT           "&Baud Rate (This is the computer port baud rate.  It must match the radio port baud rate.):",
+                    IDC_STATIC,15,99,151,16
+    LTEXT           "&Radio Address (hexadecimal):",IDC_STATIC,15,40,94,8
+END
+
+IDD_SELSELFADDR DIALOG DISCARDABLE  0, 0, 186, 98
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Self Addresses"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,129,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,129,24,50,14
+    LTEXT           "Select the Self Address:",IDC_STATIC,15,6,76,8
+    LISTBOX         IDC_LIST1,15,18,86,67,LBS_SORT | LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_AMD DIALOG DISCARDABLE  0, 0, 390, 198
+STYLE DS_MODALFRAME | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "AMD"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Messages:",IDC_STATIC,23,6,35,8
+    CONTROL         "",IDC_RICHEDIT1,"RICHEDIT",ES_MULTILINE | 
+                    ES_AUTOVSCROLL | ES_READONLY | WS_BORDER | WS_VSCROLL | 
+                    WS_TABSTOP,22,17,345,150
+    DEFPUSHBUTTON   "Close",IDCANCEL,169,175,50,14
+END
+
+IDD_AMDMESSAGE DIALOG DISCARDABLE  0, 0, 275, 74
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "AMD Message Text"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Enter the message (90 chars max):",IDC_STATIC,19,8,110,
+                    8
+    EDITTEXT        IDC_EDIT1,19,20,236,22,ES_MULTILINE | ES_UPPERCASE
+    DEFPUSHBUTTON   "OK",IDOK,74,52,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,150,53,50,14
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "ALE Lite MFC Application\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "ALE Lite\0"
+            VALUE "LegalCopyright", "\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "ALE.EXE\0"
+            VALUE "ProductName", "ALE Application\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 210
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 66
+    END
+
+    IDD_SELFADDR, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 277
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 160
+    END
+
+    IDD_CHANNEL, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 275
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 200
+    END
+
+    IDD_CHANNEL_LIST, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 312
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 174
+    END
+
+    IDD_SELFADDR_LIST, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        TOPMARGIN, 7
+    END
+
+    IDD_OTHADDR_LIST, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 312
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 174
+    END
+
+    IDD_OTHADDR, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 277
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 215
+    END
+
+    IDD_SLOT_LIST, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 234
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 203
+    END
+
+    IDD_SLOTADDR, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 149
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 62
+    END
+
+    IDD_SELINDIV, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 225
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 139
+    END
+
+    IDD_SOUNDADDRS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 88
+    END
+
+    IDD_SIGNALQUALITY, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 448
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 240
+    END
+
+    IDD_RXCHANNEL, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 256
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 118
+    END
+
+    IDD_CONFIG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 159
+    END
+
+    IDD_SELSELFADDR, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 91
+    END
+
+    IDD_AMD, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 383
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 191
+    END
+
+    IDD_AMDMESSAGE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 268
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 67
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDR_MAINFRAME           "ALE Lite\n\nALE\nALE Files (*.ale)\n.ale\nALE.Document\nALE Document"
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "ALE Lite"
+    AFX_IDS_IDLEMESSAGE     "For Help, press F1"
+    AFX_IDS_HELPMODEMESSAGE "Select an object on which to get Help"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "CAP"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "SCRL"
+    ID_INDICATOR_OVR        "OVR"
+    ID_INDICATOR_REC        "REC"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_NEW             "Create a new document\nNew"
+    ID_FILE_OPEN            "Open an existing document\nOpen"
+    ID_FILE_CLOSE           "Close the active document\nClose"
+    ID_FILE_SAVE            "Save the active document\nSave"
+    ID_FILE_SAVE_AS         "Save the active document with a new name\nSave As"
+    ID_FILE_PAGE_SETUP      "Change the printing options\nPage Setup"
+    ID_FILE_PRINT_SETUP     "Change the printer and printing options\nPrint Setup"
+    ID_FILE_PRINT           "Print the active document\nPrint"
+    ID_FILE_PRINT_PREVIEW   "Display full pages\nPrint Preview"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_APP_ABOUT            "Display program information, version number\nAbout"
+    ID_APP_EXIT             "Quit the application; prompts to save documents\nExit"
+    ID_HELP_INDEX           "Opens Help\nHelp Topics"
+    ID_HELP_FINDER          "List Help topics\nHelp Topics"
+    ID_HELP_USING           "Display instructions about how to use help\nHelp"
+    ID_CONTEXT_HELP         "Display help for clicked on buttons, menus and windows\nHelp"
+    ID_HELP                 "Display help for current task or command\nHelp"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_MRU_FILE1       "Open this document"
+    ID_FILE_MRU_FILE2       "Open this document"
+    ID_FILE_MRU_FILE3       "Open this document"
+    ID_FILE_MRU_FILE4       "Open this document"
+    ID_FILE_MRU_FILE5       "Open this document"
+    ID_FILE_MRU_FILE6       "Open this document"
+    ID_FILE_MRU_FILE7       "Open this document"
+    ID_FILE_MRU_FILE8       "Open this document"
+    ID_FILE_MRU_FILE9       "Open this document"
+    ID_FILE_MRU_FILE10      "Open this document"
+    ID_FILE_MRU_FILE11      "Open this document"
+    ID_FILE_MRU_FILE12      "Open this document"
+    ID_FILE_MRU_FILE13      "Open this document"
+    ID_FILE_MRU_FILE14      "Open this document"
+    ID_FILE_MRU_FILE15      "Open this document"
+    ID_FILE_MRU_FILE16      "Open this document"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_NEXT_PANE            "Switch to the next window pane\nNext Pane"
+    ID_PREV_PANE            "Switch back to the previous window pane\nPrevious Pane"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_WINDOW_SPLIT         "Split the active window into panes\nSplit"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_EDIT_CLEAR           "Erase the selection\nErase"
+    ID_EDIT_CLEAR_ALL       "Erase everything\nErase All"
+    ID_EDIT_COPY            "Copy the selection and put it on the Clipboard\nCopy"
+    ID_EDIT_CUT             "Cut the selection and put it on the Clipboard\nCut"
+    ID_EDIT_FIND            "Find the specified text\nFind"
+    ID_EDIT_PASTE           "Insert Clipboard contents\nPaste"
+    ID_EDIT_REPEAT          "Repeat the last action\nRepeat"
+    ID_EDIT_REPLACE         "Replace specific text with different text\nReplace"
+    ID_EDIT_SELECT_ALL      "Select the entire document\nSelect All"
+    ID_EDIT_UNDO            "Undo the last action\nUndo"
+    ID_EDIT_REDO            "Redo the previously undone action\nRedo"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_VIEW_TOOLBAR         "Show or hide the toolbar\nToggle ToolBar"
+    ID_VIEW_STATUS_BAR      "Show or hide the status bar\nToggle StatusBar"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCSIZE          "Change the window size"
+    AFX_IDS_SCMOVE          "Change the window position"
+    AFX_IDS_SCMINIMIZE      "Reduce the window to an icon"
+    AFX_IDS_SCMAXIMIZE      "Enlarge the window to full size"
+    AFX_IDS_SCNEXTWINDOW    "Switch to the next document window"
+    AFX_IDS_SCPREVWINDOW    "Switch to the previous document window"
+    AFX_IDS_SCCLOSE         "Close the active window and prompts to save the documents"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCRESTORE       "Restore the window to normal size"
+    AFX_IDS_SCTASKLIST      "Activate Task List"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_PREVIEW_CLOSE   "Close print preview mode\nCancel Preview"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_EDIT_CHANNEL         "Edit the list of Channels\nEdit Channels"
+    ID_EDIT_SELFADDR        "Edit the list of Self Addresses\nEdit Self Addresses"
+    ID_EDIT_OTHERADDR       "Edit the list of Other Addresses\nEdit Other Addresses"
+    ID_INDIVIDUALCALL       "Call an Individual Station"
+    ID_SOUNDING_START       "Start or Stop Sounding\nToggle Sounding"
+    ID_VIEW_SIGNALQUALITY   "Show or hide the Signal Quality display\nToggle Signal Quality"
+    ID_RX_SCANNING          "Select Scan List & Start Scanning\nStart Scanning"
+    ID_RX_OFF               "Turn off Receiving\nStop Receiving"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_STATUS1              "                    "
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_RX_SINGCHAN          "Receive on a Single Channel"
+    ID_EDIT_CONFIG          "Edit Basic Configuration Data\nEdit Config"
+    ID_ALLCALL              "Make an Allcall"
+    ID_AMDMESSAGE           "Send Automatic Message Display text\nSend AMD"
+    ID_VIEW_AMD             "Show or hide AMD Messages\nToggle AMD"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif
+#include "res\ALE.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#include "afxprint.rc"       // printing/print preview resources
+#endif
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
